@@ -56,7 +56,7 @@ def organize_schools(schools)
   school_hash = {}
   schools.each do |school, attributes|
     if school_hash.has_key?(attributes[:location]) == false
-
+      binding.pry
     end
   end
 end
