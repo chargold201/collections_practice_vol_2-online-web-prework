@@ -53,5 +53,6 @@ def find_cool(data)
 end
 
 def organize_schools(schools)
-
+  school_hash = {}
+  schools.each do |
 end
