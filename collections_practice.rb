@@ -54,5 +54,7 @@ end
 
 def organize_schools(schools)
   school_hash = {}
-  schools.each do |
+  schools.each do |school, attributes|
+    
+  end
 end
