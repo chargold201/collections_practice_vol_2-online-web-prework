@@ -61,4 +61,5 @@ def organize_schools(schools)
       school_hash[attributes[:location]] << school
     end
   end
+  school_hash
 end
