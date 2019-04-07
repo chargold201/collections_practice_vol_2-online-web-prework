@@ -59,7 +59,6 @@ def organize_schools(schools)
       school_hash[attributes[:location]] = [school]
     else
       school_hash[attributes[:location]] << school
-      binding.pry
     end
   end
 end
