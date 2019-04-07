@@ -53,7 +53,6 @@ def find_cool(data)
 end
 
 def organize_schools(schools)
-  school_hash = {}
   schools.map do |school, attributes|
     if school_hash.has_key?(attributes[:location]) == false
       school_hash[attributes[:location]] = [school]
